@@ -181,7 +181,13 @@ All colors MUST be HSL for consistency.
 @layer components {
   /* Article Content Styling */
   .article-content {
-    @apply prose prose-lg max-w-none;
+    @apply prose prose-lg prose-gray max-w-none;
+  }
+  
+  .article-content h1,
+  .article-content h2,
+  .article-content h3 {
+    @apply font-display;
   }
   
   .article-content h1 {
