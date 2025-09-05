@@ -3,6 +3,8 @@ import { Button } from '@/components/ui/button';
 import heroImage from '@/assets/hero-image.jpg';
 
 const Hero = () => {
+  console.log('Hero component rendering...');
+  
   return (
     <section className="relative bg-gradient-hero overflow-hidden">
       <div className="absolute inset-0">

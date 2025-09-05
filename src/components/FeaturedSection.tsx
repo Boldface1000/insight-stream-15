@@ -2,6 +2,8 @@ import { TrendingUp, Clock, Users } from 'lucide-react';
 import ArticleCard from './ArticleCard';
 
 const FeaturedSection = () => {
+  console.log('FeaturedSection component rendering...');
+  
   // Mock data - in production this would come from your Supabase database
   const featuredArticles = [
     {

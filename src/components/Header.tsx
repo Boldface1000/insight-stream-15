@@ -3,6 +3,7 @@ import { Menu, X, Search, User } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Header = () => {
+  console.log('Header component rendering...');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navigation = [
